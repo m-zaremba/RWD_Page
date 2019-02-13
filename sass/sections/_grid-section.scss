@@ -1,0 +1,36 @@
+.grid-section {
+  .container {
+    display: block;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, md)) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+
+      h2,
+      p,
+      a {
+        grid-column: 1;
+      }
+
+      h2 {
+        grid-row: 1;
+      }
+
+      p {
+        grid-row: 2;
+      }
+
+      a {
+        grid-row: 3;
+      }
+
+
+      img {
+        grid-column: 2;
+        grid-row: 1 / span 3;
+      }
+    }
+  }
+
+}

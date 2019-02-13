@@ -1,0 +1,28 @@
+.site-header {
+  .hamburger-button {
+    svg {
+      width: 40px;
+    }
+  }
+}
+
+.site-menu {
+  display: none;
+
+  &.show {
+    display: block;
+  }
+}
+
+@include screen-min-md() {
+  .desktop-menu {
+    display: block;
+  }
+  .hamburger-button {
+    display: none;
+  }
+}
+
+.site-menu {
+  list-style: none;
+}
