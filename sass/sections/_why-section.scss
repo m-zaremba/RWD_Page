@@ -1,0 +1,28 @@
+.why-section {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+
+  h2 {
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+
+  p {
+    margin-bottom: 2em;
+  }
+
+  a:link, a:visited {
+    color: black;
+    border: solid 1px rgb(138, 138, 138);
+    background-color: rgb(227, 227, 227);
+    padding: 14px 25px;
+    font-size: .6em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+
+
+}
