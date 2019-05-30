@@ -1,8 +1,17 @@
 .site-header {
+  display: flex;
+  align-items: center;
+  height: 100px;
   .hamburger-button {
     svg {
-      width: 40px;
+      width: 20px;
     }
+  }
+}
+
+.logo-link {
+  img {
+
   }
 }
 
@@ -24,5 +33,21 @@
 }
 
 .site-menu {
-  list-style: none;
+  text-transform: uppercase;
+
+  li {
+    margin-right: 1.5em;
+  }
+  a:link {
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    vertical-align: center;
+  }
+}
+
+.site-menu-social {
+  margin-left: 2em;
+  a {
+    padding: 0 1em;
+  }
 }
