@@ -8,6 +8,19 @@
       width: 20px;
     }
   }
+
+  .site-menu {
+    font-size: 12px;
+
+    li {
+      padding-right: 1.5em;
+    }
+    a:link {
+      text-decoration: none;
+      color: rgb(77, 77, 77);
+    }
+  }
+
 }
 
 .logo-link {
@@ -33,17 +46,7 @@
   }
 }
 
-.site-menu {
-  font-size: 12px;
 
-  li {
-    padding-right: 1.5em;
-  }
-  a:link {
-    text-decoration: none;
-    color: rgb(77, 77, 77);
-  }
-}
 
 .site-menu-social {
   a {

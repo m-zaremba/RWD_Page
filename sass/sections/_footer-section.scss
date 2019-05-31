@@ -1,0 +1,32 @@
+.site-footer {
+  background-color: rgb(37, 37, 37);
+  color: white;
+  font-size: .7em;
+
+  a svg {
+    fill: white;
+    height: 10px;
+  }
+
+  .social-icons {
+    padding: 1rem 0;
+  }
+
+  .copyrights-footer {
+    padding-top: 2rem;
+  }
+
+  @include screen-min-md() {
+    .social-icons {
+      padding: 0 0;
+    }
+
+    .copyrights-footer {
+      padding-top: 0;
+    }
+
+    .container {
+      padding-top: 1rem;
+    }
+  }
+}
