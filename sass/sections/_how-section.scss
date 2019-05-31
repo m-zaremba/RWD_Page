@@ -1,0 +1,61 @@
+.how-section {
+  height: 120vh;
+
+  .section-title {
+    background-color: rgb(137, 191, 52);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+  h2 {
+    font-size: 2.5em;
+    font-weight: 100;
+  }
+
+  p {
+    margin-bottom: 2em;
+  }
+
+  a:link, a:visited {
+    color: black;
+    border: solid 1px rgb(138, 138, 138);
+    background-color: rgb(227, 227, 227);
+    padding: 14px 25px;
+    font-size: .6em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+
+  .icons-grid {
+    padding-top: 10vh;
+  }
+
+  .icon-wrap {
+    width: 100%;
+    img {
+      height: 60px;
+    }
+  }
+
+  @include screen-min-md() {
+    height: 80vh;
+    .icon-wrap {
+      padding-top: 15vh;
+      width: 20%;
+      img {
+        height: 60px;
+      }
+    }
+    .icons-grid {
+      padding-top: 0;
+    }
+  }
+
+
+}

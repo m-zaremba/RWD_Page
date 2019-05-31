@@ -1,15 +1,16 @@
 .why-section {
-  height: 80vh;
+  height: 90vh;
   display: flex;
   align-items: center;
 
+
   h2 {
     font-size: 1em;
-    margin-bottom: 1em;
+    padding-bottom: 1em;
   }
 
   p {
-    margin-bottom: 2em;
+    padding-bottom: 2em;
   }
 
   a:link, a:visited {
@@ -22,6 +23,17 @@
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 5px;
+  }
+
+  .img-wrap {
+    padding-top: 10%;
+  }
+
+  @include screen-min-md() {
+    height: 80vh;
+    .img-wrap {
+      padding-top: 0;
+    }
   }
 
 
