@@ -9,7 +9,11 @@
   }
 
   .social-icons {
-    padding: 1rem 0;
+    padding: 1rem 1rem;
+  }
+
+  ul {
+    margin-bottom: 0;
   }
 
   .copyrights-footer {
@@ -17,6 +21,8 @@
   }
 
   @include screen-min-md() {
+    height: 3rem;
+
     .social-icons {
       padding: 0 0;
     }
