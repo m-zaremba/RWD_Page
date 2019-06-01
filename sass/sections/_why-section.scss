@@ -2,7 +2,7 @@
   height: auto;
   display: flex;
   align-items: center;
-  padding: 30px 0;
+  padding: 5em 0;
 
   h2 {
     font-size: 1em;
@@ -30,7 +30,7 @@
   }
 
   @include screen-min-md() {
-    height: 80vh;
+    padding: 5em 0;
     .img-wrap {
       padding-top: 0;
     }
