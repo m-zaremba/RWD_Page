@@ -25,7 +25,7 @@
 
 .logo-link {
   img {
-    width: 60%;
+    max-width: 250%;
   }
 }
 
@@ -43,6 +43,12 @@
   }
   .hamburger-button {
     display: none;
+  }
+
+  .logo-link {
+    img {
+      width: 60%;
+    }
   }
 }
 
