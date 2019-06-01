@@ -1,9 +1,6 @@
 # RWD_Page
 
-Simple RWD page created during my IT bootcamp.
+Simple RWD page created as optional task during my IT bootcamp. Built with the use of: HTML, SASS (Flex + Grid), JS, Bootstrap and Gulp as compiler.
 
 
-## TODO
-
-* Refractor menu code
-* Finish styling
+Preview [here](https://m-zaremba.github.io/RWD_Page/).
