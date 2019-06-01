@@ -31,8 +31,17 @@
 
   @include screen-min-md() {
     padding: 5em 0;
+
     .img-wrap {
       padding-top: 0;
     }
   }
+
+}
+
+a.anchorWhy {
+  display: block;
+  position: relative;
+  top: -170px;
+  visibility: hidden;
 }

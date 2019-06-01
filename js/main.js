@@ -1,5 +1,13 @@
 var hamburger = document.querySelector('.hamburger-button');
 var mobileMenu = document.querySelector('.mobile-menu');
+var links = document.querySelectorAll('.mobile-menu > li');
+console.log(links);
+
+for (var i = 0; i < links.length; i++) {
+  links[i].addEventListener('click', function (event) {
+    mobileMenu.classList.toggle('show');
+  })
+}
 
 
 hamburger.addEventListener('click', function (event) {
@@ -15,4 +23,3 @@ mobile.addListener( function(mobile) {
     mobileMenu.classList.remove('show')
   }
 });
-
