@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   max-width: 100%;
 }
@@ -28,4 +32,3 @@ ul.list-inline {
 ul>li>a>img {
   max-width: 40%;
 }
-
